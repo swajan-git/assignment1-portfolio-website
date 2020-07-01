@@ -191,6 +191,9 @@ section.subscribe{
 
 .email-me a{
     font-size: 42px;
+    color: rgba(255, 255, 255, 0.75);
+}
+.email-me a:hover{
     color: white;
 }
 /* testimonial */
