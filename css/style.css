@@ -116,6 +116,41 @@ section.works{
 section.works .col-33{
     padding: 18px;
 }
+/* Subscribe */
+section.subscribe{
+    background-color: tomato;
+}
+.subscribe h2{
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    margin-bottom: 28px;
+}
+.subscribe-form{
+    width: 500px;
+    margin: 0 auto;
+}
+.subscribe-form input,
+.subscribe-form button{
+    padding: 12px 12px;
+    border: none;
+}
+.subscribe-form input{
+    width: 70%;
+    float: left;
+}
+.subscribe-form button{
+    width: 30%;
+    float: left;
+    color: white;
+    background-color: rgb(53, 53, 53);
+    cursor: pointer;
+}
+.subscribe-form button:hover{
+    background-color: rgb(8, 8, 8);
+    transition: all .3s ease-out;
+}
+
 
 .email-me{
     width: 60%;
